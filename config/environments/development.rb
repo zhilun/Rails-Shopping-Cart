@@ -34,4 +34,18 @@ Depot::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # config.log_level = :debug
+
+  # Mail configration
+  config.action_mailer.delivery_method = :smtp 
+  config.action_mailer.smtp_settings = {
+    address: "10.60.2.11",
+    port: 25,
+    domain: "NORTH",
+    authentication: "login",
+    user_name: "nam.trk",
+    password: "Thuba3011",
+    enable_starttls_auto: true
+  }
 end
