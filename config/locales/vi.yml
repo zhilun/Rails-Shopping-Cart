@@ -4,7 +4,7 @@
 #START:currency
 #START:checkout
 #START:flash
-en:
+vi:
 
 #END:cart
 #END:checkout
@@ -14,11 +14,11 @@ en:
   number:
     currency:
       format:
-        unit:      "$"
+        unit:      "USD"
         precision: 2
         separator: "."
         delimiter: ","
-        format:    "%u%n"
+        format:    "%n&nbsp;%u"
 #END:currency
 
 #START:errors
@@ -33,43 +33,43 @@ en:
 #START:layout
   layouts:
     application:
-      title:       "Pragmatic Bookshelf"
-      home:        "Home"
-      questions:   "Questions"
-      news:        "News"
-      contact:     "Contact"
+      title:       "Gian hàng online"
+      home:        "Trang chủ"
+      questions:   "Hỏi đáp"
+      news:        "Tin tức"
+      contact:     "Liên hệ"
 #END:layout
 
 #START:cart
   carts:
     cart:
-      title:       "Your Cart"
-      empty:       "Empty cart"
-      checkout:    "Checkout"
+      title:       "Giỏ hàng của bạn"
+      empty:       "Xóa hết giỏ hàng"
+      checkout:    "Thanh toán"
 #END:cart
 
 #START:main
   store:
     index:
-      title_html:  "Your Pragmatic Catalog"
-      add_html:    "Add to Cart"
+      title_html:  "Danh mục sản phẩm"
+      add_html:    "Cho vào giỏ hàng"
 #END:main
 
 #START:checkout
   orders:
     new:
-      legend:       "Please Enter Your Details"
+      legend:       "Vui lòng nhập thông tin thanh toán"
     form:
-      name_html:         "Name"
-      address_html: "Address"
+      name_html:         "Tên"
+      address_html: "Địa chỉ"
       email:        "E-mail"
-      pay_type_html:     "Pay with"
-      pay_prompt_html: "Select a payment method"
-      submit:       "Place Order"
+      pay_type_html:     "Hình thức thanh toán"
+      pay_prompt_html: "Vui lòng chọn hình thức thanh toán"
+      submit:       "Đặt hàng"
 #END:checkout
 
 #START:flash
-  thanks:          "Thank you for your order"
+  thanks:          "Cảm ơn quý khách đã mua hàng"
 #END:flash
 
 
