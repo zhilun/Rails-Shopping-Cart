@@ -19,7 +19,11 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: mysql2
+  database: depot
+  reconnect: false
   pool: 5
+  username: depot_admin
+  password: depot_admin
   timeout: 5000
+  host: localhost
